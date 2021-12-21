@@ -47,6 +47,6 @@ class OnkyoPioneer {
 
 	configureAccessory(accessory) {
 		this.log.easyDebug(`Found Cached Accessory: ${accessory.displayName} (${accessory.context.deviceId}) `)
-		// this.accessories.push(accessory)
+		this.accessories.push(accessory)
 	}
 }
